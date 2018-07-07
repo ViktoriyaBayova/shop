@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li,
+ol li {
+  display: block;
+}
+
+ul li + li,
+ol li + li {
+  margin-top: 0.5em;
+}
+
+body.with-sidebar ul li, body.with-sidebar
+ol li {
+  background: grey;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: gray;
+}
+
+a li > a:hover {
+  background: green;
+}
+
+.content {
+  width: 1200px;
+}
+
+.content .col-left {
+  width: 300px;
+}
+
+.content .col-right {
+  width: 900px;
+}
